@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh ' sudo yum update ' 
+           sh ' sudo yum install mvn ' 
         }
      }
      
