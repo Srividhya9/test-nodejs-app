@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh ' sudo yum install' 
+           sh ' sudo yum update ' 
         }
      }
      
