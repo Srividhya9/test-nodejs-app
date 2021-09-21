@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'yum install' 
+           sh 'echo "hello"'
         }
      }
      
