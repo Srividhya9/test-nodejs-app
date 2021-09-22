@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'wget https://rpm.nodesource.com/setup_10.x | sudo bash -'
+           sh 'wget https://rpm.nodesource.com/setup_10.x'
            sh 'yum install nodejs' 
         }
      }
