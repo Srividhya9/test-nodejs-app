@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'yum install git -y' 
+           sh 'yum update' 
         }
      }
      
